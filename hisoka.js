@@ -3195,20 +3195,7 @@ fs.unlinkSync(media)
 m.reply(`𝗗𝗢𝗡𝗘 𝗦𝗣𝗬𝗥𝗢 `)
 }
 }
-break
-
-break
-case '@918590299146': {
-hisoka.sendMessage(m.chat, {audio:fs.readFileSync("./spyro.mp3"}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
-title:botname,
-body:"Spyro Ser",
-showAdAttribution: true,
-mediaType:2,
-thumbnail: fs.readFileSync(`./spyro.jpg`) ,
-mediaUrl:"Instagram.com", 
-sourceUrl: "Instagram.com" }}})
-}
-break
+br
 case 'nowa':
                    if (args.length < 1) return m.reply(`Kirim perintah ${command} nomer\nContoh ${prefix + command} 6877188xx`)
                    var teks = args[0]
